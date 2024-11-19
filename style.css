@@ -1,0 +1,89 @@
+
+body{
+    background-color: whitesmoke;
+    color: black;
+
+
+}
+h1{
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.productsSum{
+    text-align: center;
+    font-weight: 600;
+    background-color: rgba(189, 192, 192, 0.904);
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.row{
+    
+    text-align: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+table {
+    min-width: 300px;
+    border-collapse: collapse;
+   
+}
+.delete, .edit{
+    background-color: rgba(63, 81, 87, 0.466);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.legend{
+    border: 1px solid black;
+    background-color: rgb(117, 116, 114);
+    padding: 10px;
+}
+
+#confirmDelete{
+    position: relative;
+    transform: translateX(-50%);
+    left: 40%;
+}
+#rejectDelete
+{
+    position: relative;
+    transform: translateX(-50%);
+    left: 40%;
+}
+
+#confirmDelete, #rejectDelete{
+    border-radius: 5px;
+    background-color: rgba(63, 81, 87, 0.466);
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+#addButton{
+    cursor: pointer;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgba(63, 81, 87, 0.466);
+    font-weight: 600;
+}
+
+#submitEdition, #submitNewProduct{
+    border-radius: 5px;
+    background-color: rgba(63, 81, 87, 0.466);
+    cursor: pointer;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+#closeControlsDialog, #closeEditDialog{
+    border-radius: 5px;
+    background-color: rgba(63, 81, 87, 0.466);
+    cursor: pointer;
+}

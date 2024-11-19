@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="paragon.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Paragon</title>
+</head>
+<body>
+    <h1></h1>
+
+    <dialog id="controlsDialog">
+        <button id="closeControlsDialog" type="submit" aria-label="close" formmethod="dialog" formnovalidate>X</button>
+        <p>
+            <label>Nazwa:
+                <input type="text" id="name">
+            </label>
+        </p>
+        <p>
+            <label>Cena:
+                <input type="number" id="price">
+            </label>
+        </p>
+        <p>
+            <label>Ilosc:
+                <input type="number" id="quantity">
+            </label>
+        </p>
+        <p>
+            <button id="submitNewProduct" >Dodaj produkt</button>
+        </p>
+    </dialog>
+
+    <button id="addButton">Dodaj nowe produkty</button>
+
+
+    <dialog id="editDialog">
+        <button id="closeEditDialog" type="submit" aria-label="close" formmethod="dialog" formnovalidate>X</button>
+        <p>
+            <label>Nazwa:
+                <input type="text" id="editName">
+            </label>
+        </p>
+        <p>
+            <label>Cena:
+                <input type="number" id="editPrice">
+            </label>
+        </p>
+        <p>
+            <label>Ilosc:
+                <input type="number" id="editQuantity">
+            </label>
+        </p>
+        <p>
+            <button id="submitEdition">Edytuj produkt</button>
+        </p>
+    </dialog>
+
+    <dialog id="deleteDialog">
+        <div>Czy na pewno chcesz usunąć produkt?</div>
+        <div>
+            <button id="confirmDelete">TAK</button>
+            <button id="rejectDelete">NIE</button>
+        </div>
+    </dialog>
+
+    <table>
+        <thead>
+            <tr>
+                <th class="legend">LP</th>
+                <th class="legend">Nazwa Produktu</th>
+                <th class="legend">Ilosc</th>
+                <th class="legend">Cena (zł)</th>
+                <th class="legend">Suma (zł)</th>
+                <th class="legend">Operacje</th>
+            </tr>
+        </thead>
+        <tbody id="bill"></tbody>
+    </table>
+</body>
+</html>

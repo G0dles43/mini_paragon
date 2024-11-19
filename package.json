@@ -1,0 +1,15 @@
+{
+  "name": "mini_projekt_paragon",
+  "version": "1.0.0",
+  "main": "paragon.js",
+  "scripts": {
+    "start": "json-server --watch ./database/db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
