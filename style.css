@@ -27,6 +27,7 @@ h1{
     border-right: 1px solid black;
 }
 
+
 table {
     min-width: 300px;
     border-collapse: collapse;
@@ -37,6 +38,11 @@ table {
     border-radius: 5px;
     cursor: pointer;
 
+}
+
+#H1{
+    text-decoration: none;
+    color: black;
 }
 .legend{
     border: 1px solid black;
